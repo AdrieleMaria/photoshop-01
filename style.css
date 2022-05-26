@@ -1,0 +1,111 @@
+ 
+ 
+ 
+/*
+=======
+General
+=======
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway',sans-serif;
+    color: #272727;
+    background-color: #eedfdf;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+img{
+    width: 100%;  
+}
+
+.image{    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.section-center {
+    padding: 4rem 0;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+/*
+======
+Header
+======
+*/
+
+.header{
+    background:rgba(36, 13, 22, 0.726);      
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner h2{
+    font-family:'Raleway',sans-serif;
+    color:  #e3a2f3;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.banner h1{
+    font-family: 'Cookie', cursive;;
+    color: #eedfdf;
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+}
+ 
+ 
+ /*
+=============== 
+Footer
+===============
+*/
+.footer {
+    background: rgba(36, 13, 22, 0.726);
+    text-align: center;
+}
+.social-icon {
+    color: #eedfdf;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition:  all 0.3s linear;
+}
+.social-icon:hover {
+    color: #470b63;
+}
+.footer-text {
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+    color: #eedfdf;
+    font-weight: 400;
+}
+.name {
+    color: #e3a2f3;
+}
+
+#date{
+
+}
+
+.section-center {
+    padding: 4rem 0;
+    width: 85vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+    
+    
